@@ -78,7 +78,7 @@ const Header = () => {
           Portfolio
         </Link>
       </nav>
-      <button className="container__header-btn ring-[1px] ring-green rounded-full text-green py-[6px] col-span-[1] md:col-span-2  ">
+      <button className="container__header-btn ring-[1px] ring-green rounded-full text-green py-[6px] col-span-[1] md:col-span-2 hover:bg-black/30 active:scale-95 transition-all duration-300 ">
         <Link href="#contact" className="block">
           Contact
         </Link>
@@ -86,40 +86,6 @@ const Header = () => {
       {isOpen ? <BurgerNav method={toggleBtn} /> : ""}
     </header>
 
-    // <header
-    //   className="container__header z-[6] fixed w-full  pt-[20px] px-[20px] grid grid-cols-4 md:grid-cols-12 gap-[24px] "
-    //   style={{
-    //     background:
-    //       "linear-gradient(180deg, rgba(30, 30, 30, 0.9) 0%, rgba(30, 30, 30, 0) 100%)",
-    //   }}
-    // >
-    //   <div className="container__header-burger" onClick={toggleBtn}>
-    //     <div className="nav-icon">
-    //       <span></span>
-    //       <span></span>
-    //       <span></span>
-    //     </div>
-    //   </div>
-    //   <div className="container__header-title">
-    //     <img className=" w-[70px] " src="/assets/Logo_SEC.png" alt="Saudi Excellence Co."  />
-    //     <h1>Saudi Excellence Co.</h1>
-    //   </div>
-    //   <nav className="container__header-nav text-white">
-    //     <a href="#about">About</a>
-    //     <a href="#mission">Mission</a>
-    //     <a href="#partners">Partners</a>
-    //     <a href="#team">Team</a>
-    //     <a href="#portfolio">Portfolio</a>
-    //     <a href="#contact">Contact</a>
-
-    //     {/* <a href="#news">AI News</a>
-    //         <a href="#documents">Documents</a> */}
-    //   </nav>
-    //   <div className="container__header-btn">
-    //     <a href="#contact">Contact</a>
-    //   </div>
-    //   {isOpen ? <BurgerNav /> : ""}
-    // </header>
   );
 };
 
