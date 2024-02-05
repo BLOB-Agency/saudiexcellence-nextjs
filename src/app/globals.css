@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@font-face {
+  font-family: "Coolvetica";
+  src: url("../fonts/coolvetica/coolvetica-rg.otf") format("otf");
+  font-family: "Poppins";
+  src: url("../fonts/Poppins/Poppins-Regular.ttf") format("ttf");
+  src: url("../fonts/Poppins/Poppins-Bold.ttf") format("ttf");
+  src: url("../fonts/Poppins/Poppins-Light.ttf") format("ttf");
+}
+
+* {
+  font-family: "Poppins", "Coolvetica", Arial, Helvetica, sans-serif;
+  
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,
+h2,
+p {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Coolvetica", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  h2 {
+    font-size: 40px !important;
+  }
+}
+/*# sourceMappingURL=index.css.map */
