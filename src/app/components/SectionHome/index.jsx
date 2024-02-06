@@ -1,7 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 export default function SectionHome() {
+
   return (
     <section className="relative sm:max:min-h-[100vh] min-h-auto w-full flex flex-col gap-[50px] overflow-hidden">
       <video
@@ -17,13 +19,13 @@ export default function SectionHome() {
         <h2 className="text-center font-[700] text-[20px]">
           AI will impact every industry all over <strong className="text-green">the world.</strong>
         </h2>
-        <a href="#about" className="w-fit">
+        <Link href="#about"  className="w-fit">
           <FontAwesomeIcon
             icon={faChevronDown}
             className="w-[3em] text-green-500 hover:scale-110 transition-all duration-300 active:scale-95 "
             style={{ color: "#CAE54C" }}
           />
-        </a>
+        </Link>
       </div>
     </section>
   );

@@ -5,6 +5,7 @@ export default function SectionAbout() {
   return (
     <section className="flex flex-col justify-around gap-[24px] px-[24px] py-[96px] md:px-[24px] lg:px-[48px] bg-black/95 bg-fixed bg-cover bg-center bg-no-repeat "
     style={{backgroundImage: "url('/assets/meteor.png')",}}
+    id="about"
     >
       <SectionHeader title={"About."} subtitle={"OUR COMPANY."} />
       <main className="grid grid-col md:justify-between gap-[48px]  ">
