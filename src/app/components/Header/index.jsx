@@ -46,7 +46,7 @@ const Header = () => {
           alt="Saudi Excellence Co."
         />
       </div>
-      <nav className="container__header-nav hidden md:flex md:col-start-5 md:col-span-6  text-white md:justify-between ">
+      <nav className="container__header-nav hidden md:flex md:col-start-5 md:col-span-6  text-white md:justify-around ">
         <Link
           href="#about"
           className="hover:text-green active:scale-95 transition-all duration-300 "

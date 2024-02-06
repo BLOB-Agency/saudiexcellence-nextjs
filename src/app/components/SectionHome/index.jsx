@@ -20,7 +20,7 @@ export default function SectionHome() {
         <a href="#about" className="w-fit">
           <FontAwesomeIcon
             icon={faChevronDown}
-            className="w-[3em] text-green-500"
+            className="w-[3em] text-green-500 hover:scale-110 transition-all duration-300 active:scale-95 "
             style={{ color: "#CAE54C" }}
           />
         </a>
